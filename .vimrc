@@ -74,7 +74,8 @@ let g:coc_global_extensions = [
       \'coc-tsserver',
       \'coc-jedi',
       \'coc-eslint',
-      \'coc-json'
+      \'coc-json',
+      \'coc-sh'
       \]
 
 " NERDTree bindings
