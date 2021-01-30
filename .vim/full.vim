@@ -70,11 +70,13 @@ let g:coc_global_extensions = [
       \]
 
 " NERDTree bindings
-nnoremap <C-t><C-t> :NERDTreeToggle<CR>
-nnoremap <C-t><C-f> :NERDTreeFind<CR>
+nnoremap <C-e><C-g> :NERDTreeFind<CR>
 
 " tagbar bindings
 nnoremap <C-e><C-t> :TagbarToggle<CR>
+
+" FZF
+nnoremap <C-e><C-f> :FZF<CR>
 
 " CtrlP
 nnoremap <A-p> :CtrlPCurFile<CR>
