@@ -57,12 +57,14 @@ Plug 'mbbill/undotree'
 
 " coc (https://github.com/neoclide/coc.nvim) code completion tool
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
+" color scheme
+Plug 'dracula/vim', { 'as': 'dracula' }
 call plug#end()
 
 let g:coc_global_extensions = [
       \'coc-tsserver',
       \'coc-jedi',
-      \'coc-eslint',
       \'coc-json',
       \'coc-sh'
       \]
