@@ -54,8 +54,6 @@ Plug 'Raimondi/delimitMate'
 
 " undotree (https://github.com/mbbill/undotree) show undo history
 Plug 'mbbill/undotree'
-" SimplyFold (https://github.com/tmhedberg/SimpylFold) python folding
-Plug 'tmhedberg/SimpylFold'
 
 " coc (https://github.com/neoclide/coc.nvim) code completion tool
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
@@ -108,11 +106,6 @@ set smartcase        " Respect case when there is an uppercase
                      " Include \C for case sensitive search
 " Remove search highlight on <CR>-/
 nnoremap <CR>/ :nohlsearch<CR>
-
-" Folding
-set nofoldenable
-" set foldlevelstart=1
-" set foldmethod=syntax
 
 " Functional settings
 set undofile " Persistent undo
