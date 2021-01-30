@@ -2,6 +2,9 @@ if ! set --query XDG_CONFIG_HOME;
   set --export XDG_CONFIG_HOME $HOME/.config
 end
 
+set --export VISUAL vim
+set --export EDITOR $VISUAL
+
 # Link ~/Downloads into /tmp
 if test ! -d "$HOME/Downloads";
 	set --export DOWNLOADS_DIR (mktemp -d)
