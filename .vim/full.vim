@@ -113,6 +113,7 @@ nnoremap <CR>/ :nohlsearch<CR>
 
 " Functional settings
 set undofile " Persistent undo
+set autoread " Don't ask to reload every time a file changes
 
 " Indent settings
 set smartindent
