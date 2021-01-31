@@ -2,3 +2,5 @@
 !/.vim/coc.vim
 !/.vim/full.vim
 !/.vimrc
+!/.gvimrc
+!/.gitignore.d/vim
